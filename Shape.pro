@@ -17,9 +17,14 @@ DEFINES += QT_DEPRECATED_WARNINGS
 SOURCES += \
         main.cpp \
     Circle.cpp \
-    Triangle.cpp
+    Triangle.cpp \
+    Rectangle.cpp \
+    Square.cpp
 
 HEADERS += \
     Circle.h \
     IShape.h \
-    Triangle.h
+    Triangle.h \
+    Rectangle.h \
+    Square.h \
+    ShapeFactory.h
