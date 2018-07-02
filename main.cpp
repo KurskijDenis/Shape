@@ -15,7 +15,8 @@ int main(int argc, char *argv[])
                                                   };
 
 
-    for (size_t i = 0; i < shapes.size(); i++) {
+    for (size_t i = 0; i < shapes.size(); i++)
+    {
         auto& sh = shapes[i];
         std::cout << "Shape "<< i + 1 << std::endl;
         std::cout << "Area " << sh->area() << std::endl;
